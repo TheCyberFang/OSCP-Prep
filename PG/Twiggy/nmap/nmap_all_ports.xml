@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Wed Jul 24 21:09:50 2024 as: nmap -p- -sV -vvv -oA nmap/nmap_all_ports sC 192.168.231.62 -->
+<nmaprun scanner="nmap" args="nmap -p- -sV -vvv -oA nmap/nmap_all_ports sC 192.168.231.62" start="1721866190" startstr="Wed Jul 24 21:09:50 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1721866190"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.231.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1721866191" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1721866191"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1721866191"/>
+<taskbegin task="Connect Scan" time="1721866191"/>
+<taskprogress task="Connect Scan" time="1721866222" percent="20.62" remaining="120" etc="1721866341"/>
+<taskprogress task="Connect Scan" time="1721866252" percent="48.98" remaining="64" etc="1721866316"/>
+<taskend task="Connect Scan" time="1721866295" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1721866295"/>
+<taskend task="Service scan" time="1721866306" extrainfo="6 services on 1 host"/>
+<taskbegin task="NSE" time="1721866306"/>
+<taskend task="NSE" time="1721866306"/>
+<taskbegin task="NSE" time="1721866306"/>
+<taskend task="NSE" time="1721866307"/>
+<host starttime="1721866191" endtime="1721866307"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.231.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65529">
+<extrareasons reason="no-response" count="65529" proto="tcp" ports="1-21,23-52,54-79,81-4504,4507-7999,8001-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.4" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.4</cpe></service></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" product="NLnet Labs NSD" method="probed" conf="10"><cpe>cpe:/a:nlnetlabs:nsd</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.16.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.16.1</cpe></service></port>
+<port protocol="tcp" portid="4505"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="zmtp" product="ZeroMQ ZMTP 2.0" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="4506"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="zmtp" product="ZeroMQ ZMTP 2.0" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.16.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.16.1</cpe></service></port>
+</ports>
+<times srtt="31771" rttvar="806" to="100000"/>
+</host>
+<runstats><finished time="1721866307" timestr="Wed Jul 24 21:11:47 2024" summary="Nmap done at Wed Jul 24 21:11:47 2024; 1 IP address (1 host up) scanned in 116.54 seconds" elapsed="116.54" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,2 @@
+Exploit ZeroMQ ZMTP 2.0 using saltstack exploit
+got shell as root by reading and then updating shadow file 

@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Wed Jul 24 21:09:50 2024 as: nmap -p- -sV -vvv -oA nmap/nmap_all_ports sC 192.168.231.62
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.231.62 ()	Status: Up
+Host: 192.168.231.62 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 53/open/tcp//domain//NLnet Labs NSD/, 80/open/tcp//http//nginx 1.16.1/, 4505/open/tcp//zmtp//ZeroMQ ZMTP 2.0/, 4506/open/tcp//zmtp//ZeroMQ ZMTP 2.0/, 8000/open/tcp//http//nginx 1.16.1/	Ignored State: filtered (65529)
+# Nmap done at Wed Jul 24 21:11:47 2024 -- 1 IP address (1 host up) scanned in 116.54 seconds
