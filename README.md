@@ -6,10 +6,15 @@
 Codo - CodoForum
 
 
+
+## 25 - SMTP
+Postfish - PG
+
+
 ## 4505, 4506 - ZeroMQ SMTP 2.0
-Twiggy - PGPR
+Twiggy - PG
 
 
 ## 6379 - Redis
-Wombo - PGPR
+Wombo - PG
 Res - TryHackMe
