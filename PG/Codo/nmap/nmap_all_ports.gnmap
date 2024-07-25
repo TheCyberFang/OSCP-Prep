@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Tue Jul 23 20:43:19 2024 as: nmap -p- -sV -vvv -oA nmap/nmap_all_ports sC 192.168.231.23
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.231.23 ()	Status: Up
+Host: 192.168.231.23 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Ignored State: filtered (65533)
+# Nmap done at Tue Jul 23 20:45:11 2024 -- 1 IP address (1 host up) scanned in 111.55 seconds

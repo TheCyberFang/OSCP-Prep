@@ -1,0 +1,4 @@
+CodoForum RCE - Manually exploit - exploit did not work
+Got shell as www-data
+got password FatPanda123
+su root and we are root
